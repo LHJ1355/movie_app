@@ -7,6 +7,7 @@ class Detail extends React.Component{
     }
     render(){
         const { location } = this.props;
+        console.log("props");
         if(location.state) return <h1>{location.state.title}</h1>
         else return null;
         
